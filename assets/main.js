@@ -3,7 +3,7 @@ var animalNames= ["cat", "dog", "bird", "sheep"];
 
 function displayAnimals(event) {
     // var animal= $(this).attr("data-name");
-    var queryUrl= "https://api.giphy.com/v1/gifs/search?q=" + event.target.innerHTML + "&api_key=nf5pdoAHZWKX52J3AYxlNkSTGlgDVhB7&limit=10";
+    var queryUrl= "HTTPS://api.giphy.com/v1/gifs/search?q=" + event.target.innerHTML + "&api_key=nf5pdoAHZWKX52J3AYxlNkSTGlgDVhB7&limit=10";
    
     
     // Creating an AJAX call for the specific movie button being clicked
